@@ -1,6 +1,6 @@
 cd /opt
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.91/bin/apache-tomcat-9.0.91.tar.gz
-sudo tar -xvf /opt/apache-tomcat-9.0.84.tar.gz
+sudo tar -xvf /opt/apache-tomcat-9.0.91.tar.gz
 cd /opt/apache-tomcat-9.0.84/webapps/manager/META-INF
 sudo sed -i 's/"127\\.\\d+\\.\\d+\\.\\d+|::1|0:0:0:0:0:0:0:1"/".*"/g' context.xml
 cd /opt/apache-tomcat-9.0.84/conf
